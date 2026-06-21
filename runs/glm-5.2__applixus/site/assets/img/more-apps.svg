@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="more-apps ikonu">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#475569"/><stop offset="1" stop-color="#312e81"/></linearGradient></defs>
+  <rect width="120" height="120" rx="28" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><circle cx="48" cy="48" r="8" fill="#fff" stroke="none"/><circle cx="72" cy="48" r="8" fill="#fff" stroke="none"/><circle cx="60" cy="72" r="8" fill="#fff" stroke="none"/></g>
+</svg>

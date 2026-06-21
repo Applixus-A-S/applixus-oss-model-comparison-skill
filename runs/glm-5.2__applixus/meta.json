@@ -1,0 +1,11 @@
+{
+  "model": "glm-5.2",
+  "site": "applixus",
+  "url": "https://www.applixus.com",
+  "created": "2026-06-21T15:05:53Z",
+  "spec": "specs/applixus",
+  "pagespeed": 98,
+  "pagespeed_detail": { "mobile": 98, "desktop": 99, "tool": "Lighthouse / PageSpeed Insights" },
+  "demo": "https://glm-5-2.applixus.com/",
+  "cost_usd": 11.09
+}

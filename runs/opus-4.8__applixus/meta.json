@@ -1,0 +1,9 @@
+{
+  "model": "opus-4.8",
+  "site": "applixus",
+  "url": "https://www.applixus.com",
+  "created": "2026-06-21",
+  "spec": "specs/applixus",
+  "deploy_url": "https://opus4-8.applixus.com/",
+  "pagespeed": 98
+}

@@ -1,0 +1,7 @@
+.DS_Store
+.claude/
+*.log
+
+# specs/ (paylaşılan, adil-kıyas girdisi), runs/ (model çıktıları + scorecard) ve results/
+# bilerek COMMIT edilir — benchmark'ın şeffaflığı ve tekrarlanabilirliği için.
+# Vanilla static = build yok (node_modules/dist yok) → repo şişmez.

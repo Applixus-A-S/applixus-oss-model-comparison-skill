@@ -1,0 +1,21 @@
+{
+  "name": "llm-ux-benchmark",
+  "version": "0.1.0",
+  "description": "Verilen siteyi sıfırdan vanilla static (HTML/CSS/JS) olarak yeniden kodlatır; Codex 0-100 puanlar (Teknik kalite / UI / Kod okunabilirliği), PageSpeed manuel girilir.",
+  "author": {
+    "name": "Applixus",
+    "url": "https://applixus.com"
+  },
+  "homepage": "https://www.applixus.com",
+  "license": "MIT",
+  "keywords": [
+    "benchmark",
+    "llm",
+    "ux",
+    "pagespeed",
+    "codex",
+    "applixus",
+    "glm",
+    "web"
+  ]
+}

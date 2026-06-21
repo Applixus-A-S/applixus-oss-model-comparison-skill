@@ -1,0 +1,56 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["model", "site", "scores", "pagespeed", "notes"],
+  "properties": {
+    "model": { "type": "string" },
+    "site": { "type": "string" },
+    "scores": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["technical", "ui", "readability"],
+      "properties": {
+        "technical": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["score", "rationale", "findings"],
+          "properties": {
+            "score": { "type": "integer", "description": "Teknik kalite 0-100" },
+            "rationale": { "type": "string" },
+            "findings": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "ui": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["score", "rationale", "findings"],
+          "properties": {
+            "score": { "type": "integer", "description": "UI kalitesi 0-100" },
+            "rationale": { "type": "string" },
+            "findings": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "readability": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["score", "rationale", "findings"],
+          "properties": {
+            "score": { "type": "integer", "description": "Kod okunabilirliği 0-100" },
+            "rationale": { "type": "string" },
+            "findings": { "type": "array", "items": { "type": "string" } }
+          }
+        }
+      }
+    },
+    "pagespeed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "status"],
+      "properties": {
+        "score": { "type": ["integer", "null"], "description": "0-100 veya null (pending). Codex doldurmaz." },
+        "status": { "type": "string", "enum": ["pending", "done"] }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}

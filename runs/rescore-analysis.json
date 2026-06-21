@@ -1,0 +1,100 @@
+{
+  "opus-4.8": {
+    "runs": [
+      {
+        "run": 1,
+        "tech": 78,
+        "ui": 58,
+        "read": 84,
+        "composite": 79.5
+      },
+      {
+        "run": 2,
+        "tech": 82,
+        "ui": 64,
+        "read": 80,
+        "composite": 81.0
+      },
+      {
+        "run": 3,
+        "tech": 72,
+        "ui": 61,
+        "read": 83,
+        "composite": 78.5
+      }
+    ],
+    "median": {
+      "tech": 78,
+      "ui": 61,
+      "read": 83
+    },
+    "range": {
+      "tech": [
+        72,
+        82
+      ],
+      "ui": [
+        58,
+        64
+      ],
+      "read": [
+        80,
+        84
+      ]
+    },
+    "composite_median": 79.5,
+    "composite_range": [
+      78.5,
+      81.0
+    ]
+  },
+  "glm-5.2": {
+    "runs": [
+      {
+        "run": 1,
+        "tech": 78,
+        "ui": 50,
+        "read": 82,
+        "composite": 77.0
+      },
+      {
+        "run": 2,
+        "tech": 82,
+        "ui": 55,
+        "read": 84,
+        "composite": 79.75
+      },
+      {
+        "run": 3,
+        "tech": 80,
+        "ui": 56,
+        "read": 82,
+        "composite": 79.0
+      }
+    ],
+    "median": {
+      "tech": 80,
+      "ui": 55,
+      "read": 82
+    },
+    "range": {
+      "tech": [
+        78,
+        82
+      ],
+      "ui": [
+        50,
+        56
+      ],
+      "read": [
+        82,
+        84
+      ]
+    },
+    "composite_median": 79.0,
+    "composite_range": [
+      77.0,
+      79.75
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "applixus-oss-benchmark",
+  "owner": {
+    "name": "Applixus",
+    "url": "https://applixus.com"
+  },
+  "metadata": {
+    "description": "LLM UX benchmark — verilen siteyi sıfırdan yeniden kodlat, Codex ile puanla, modelleri kıyasla.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "llm-ux-benchmark",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Verilen siteyi sıfırdan vanilla static olarak yeniden kodlatır; Codex 0-100 puanlar (Teknik/UI/Okunabilirlik), PageSpeed manuel.",
+      "author": {
+        "name": "Applixus"
+      },
+      "category": "development",
+      "keywords": [
+        "benchmark",
+        "llm",
+        "ux",
+        "pagespeed",
+        "codex",
+        "applixus"
+      ]
+    }
+  ]
+}
