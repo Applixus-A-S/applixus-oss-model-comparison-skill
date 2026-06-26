@@ -1,6 +1,6 @@
 # Benchmark Spec — applixus
 
-> Bu, llm-ux-benchmark'ın **paylaşılan, sabit girdisidir**. Tüm modeller (opus-4.8, glm-5.2, …)
+> Bu, llm-ux-benchmark'ın **paylaşılan, sabit girdisidir**. Tüm modeller (opus-4.8, glm-5.2, moonshotai/kimi-k2.7-code, …)
 > birebir aynı brief + aynı reference içerik + aynı tasarım ekran görüntülerini alır.
 > Görev: aşağıdaki adresteki siteyi **sıfırdan** yeniden kodlamak.
 

@@ -48,6 +48,23 @@
       81.0
     ]
   },
+  "moonshotai/kimi-k2.7-code": {
+    "_note": "tek-run; 3-run medyan henüz yapılmadı",
+    "runs": [
+      {
+        "run": 1,
+        "tech": 72,
+        "ui": 43,
+        "read": 80,
+        "composite": 70.75
+      }
+    ],
+    "median": null,
+    "range": null,
+    "composite_median": null,
+    "composite_single_run": 70.75,
+    "pagespeed": 88
+  },
   "glm-5.2": {
     "runs": [
       {
